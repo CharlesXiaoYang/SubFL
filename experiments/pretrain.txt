@@ -1,0 +1,1 @@
+python pretrain.py --pretrain_dataset cifar100 --pretrain_data_root data/cifar100 --model_name cifar_resnet20 --epochs 100 --lr 0.1 --lr_schedule cosine --momentum 0.9 --weight_decay 5e-4 --batch_size 256 --seed 1234 --normalization cifar10 --run_tag c100e100 --output_root runs/pretrain --device cuda

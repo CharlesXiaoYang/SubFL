@@ -1,0 +1,8 @@
+name,label,n,seeds,mean,sd,reference,diff,ci_lo,ci_hi,p
+q1_subfl_e16,SubFL (anchor subspace + residual),3,1234 2345 3456,0.555050,0.004178,,,,,
+q3_subfl_nores,SubFL without the residual,3,1234 2345 3456,0.415797,0.008041,q1_subfl_e16,-0.139253,-0.166785,-0.111721,0.0021
+q3_rand_res,random subspace + residual,3,1234 2345 3456,0.448907,0.011350,q1_subfl_e16,-0.106143,-0.142193,-0.070094,0.00617
+q3_rand_nores,"random subspace, no residual",3,1234 2345 3456,0.400357,0.019773,q1_subfl_e16,-0.154693,-0.212840,-0.096547,0.00755
+rl_subfl_random,"SubFL, random anchor labels",3,1234 2345 3456,0.556820,0.002685,q1_subfl_e16,0.001770,-0.002689,0.006229,0.23
+q1_dense_e16,"dense, C=4 (tuned)",3,1234 2345 3456,0.496277,0.011890,q1_subfl_e16,-0.058773,-0.087833,-0.029714,0.0129
+q3_dense_c2,"dense, C=2 (= C_r)",3,1234 2345 3456,0.465800,0.015710,q1_subfl_e16,-0.089250,-0.132564,-0.045936,0.0125

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "dataset_name": "cifar10",
+    "root": "data/cifar10",
+    "num_clients": 10,
+    "batch_size": 256,
+    "num_workers": 0,
+    "image_size": 32,
+    "normalization": "cifar10",
+    "public_samples_per_class": 200,
+    "private_split_seed": 1234,
+    "dirichlet_alpha": 100.0,
+    "auxiliary_dataset_name": "matched",
+    "auxiliary_root": "data/auxiliary",
+    "auxiliary_random_labels": true,
+    "svhn_train_split": "train"
+  },
+  "model": {
+    "model_name": "cifar_resnet20",
+    "num_classes": 100,
+    "pretrained_weights": "none",
+    "freeze_backbone": false,
+    "trainable_scope": "full",
+    "head_type": "linear",
+    "head_hidden_dim": 256,
+    "head_dropout": 0.0,
+    "init_checkpoint": "",
+    "checkpoint_path": ""
+  },
+  "train": {
+    "epochs": 100,
+    "lr": 0.1,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "seed": 1234
+  },
+  "best_checkpoint": "/workspace/results/fedgep/c100_pretrain/20260704_011339_public_pretrain_cifar_resnet20_c100e100/best_checkpoint.pt",
+  "last_checkpoint": "/workspace/results/fedgep/c100_pretrain/20260704_011339_public_pretrain_cifar_resnet20_c100e100/last_checkpoint.pt",
+  "best_accuracy": 0.6183
+}

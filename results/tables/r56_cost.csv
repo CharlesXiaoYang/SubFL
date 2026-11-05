@@ -1,0 +1,3 @@
+study,dataset,model,arm,eps,n,peak_allocated_gib_mean,peak_allocated_gib_max,peak_reserved_gib_mean,peak_reserved_gib_max,round_s_mean,round_s_sd,round_steps,step_s_mean,evaluation_s_mean,run_h_mean,run_h_max
+r56,CIFAR-10,ResNet-56,subfl,16,5,14.337088,14.344646,22.530078,22.818359,320.492029,2.214224,150,2.136614,5.532753,8.981616,9.051634
+r56,CIFAR-10,ResNet-56,dense,16,5,3.996335,4.046304,21.063281,21.835938,50.979740,0.257111,150,0.339865,5.708316,1.497359,1.507399

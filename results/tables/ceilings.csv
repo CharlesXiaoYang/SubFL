@@ -1,0 +1,3 @@
+init,group,n,mean,sd
+scratch,c_nonprivate_lr0.3,3,0.804373,0.006648
+warm,cw_nonprivate_lr0.03,3,0.876670,0.000965

@@ -1,0 +1,6 @@
+name,label,n,seeds,mean,sd,reference,diff,ci_lo,ci_hi,p
+lev_const_subfl,"constant lr, SubFL",3,1234 2345 3456,0.532230,0.017088,q1_subfl_e16,-0.022820,-0.055818,0.010178,0.0968
+lev_const_dense,"constant lr, dense",3,1234 2345 3456,0.471077,0.013360,q1_dense_e16,-0.025200,-0.028854,-0.021546,0.00113
+lev_r0.4_subfl,eps split 0.4 / 0.6,3,1234 2345 3456,0.556510,0.008376,q1_subfl_e16,0.001460,-0.029657,0.032577,0.859
+lev_r0.6_subfl,eps split 0.6 / 0.4,3,1234 2345 3456,0.557457,0.006026,q1_subfl_e16,0.002407,-0.003388,0.008202,0.216
+gap_did,gap under constant lr - gap under cosine lr,3,1234 2345 3456,,,q1_subfl_e16 - q1_dense_e16,0.002380,-0.028271,0.033031,0.77

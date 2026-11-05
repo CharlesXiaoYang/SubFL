@@ -1,0 +1,2 @@
+study,dataset,model,eps,n,diff,ci_lo,ci_hi,p,wins,y_from,y_to,m,exploratory,p_holm
+r56,CIFAR-10,ResNet-56,16,5,0.043354,0.012213,0.074495,0.0181,5,83,100,1,1,0.0181

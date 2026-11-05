@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+/data/
+/runs/
+/logs/
+/new_tables/
+/new_figures/
